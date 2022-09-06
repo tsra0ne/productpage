@@ -21,7 +21,7 @@ body {
 
 div > header {
   grid-column: span 12;
-  padding: 15px 30px;
+  padding: 15px 15px;
 }
 
 header > h1 {
@@ -68,7 +68,7 @@ div > h2 {
 
 div > section {
   grid-column: span 12;
-  margin: 0 40px;
+  margin: 0 15px;
   margin-bottom: 40px;
 }
 
@@ -119,5 +119,9 @@ article > h3 {
   header > nav {
     grid-column: span 12;
     justify-self: center;
+  }
+
+  li {
+    margin: 0 5px;
   }
 }
